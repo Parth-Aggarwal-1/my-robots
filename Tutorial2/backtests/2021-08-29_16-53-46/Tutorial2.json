@@ -1,0 +1,2264 @@
+{
+  "RollingWindow": {
+    "M1_20180131": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-10.8267",
+        "TrackingError": "0.0866",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M1_20180228": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "1.3002",
+        "TrackingError": "0.2853",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M1_20180319": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-8.1684",
+        "TrackingError": "0.1114",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M3_20180131": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-10.8267",
+        "TrackingError": "0.0866",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M3_20180228": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.7009",
+        "TrackingError": "0.2015",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M3_20180319": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.9814",
+        "TrackingError": "0.1866",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M6_20180131": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-10.8267",
+        "TrackingError": "0.0866",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M6_20180228": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.7009",
+        "TrackingError": "0.2015",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M6_20180319": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.9814",
+        "TrackingError": "0.1866",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M12_20180131": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-10.8267",
+        "TrackingError": "0.0866",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M12_20180228": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.7009",
+        "TrackingError": "0.2015",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M12_20180319": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.9814",
+        "TrackingError": "0.1866",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    }
+  },
+  "TotalPerformance": {
+    "TradeStatistics": {
+      "StartDateTime": null,
+      "EndDateTime": null,
+      "TotalNumberOfTrades": 0,
+      "NumberOfWinningTrades": 0,
+      "NumberOfLosingTrades": 0,
+      "TotalProfitLoss": "0",
+      "TotalProfit": "0",
+      "TotalLoss": "0",
+      "LargestProfit": "0",
+      "LargestLoss": "0",
+      "AverageProfitLoss": "0",
+      "AverageProfit": "0",
+      "AverageLoss": "0",
+      "AverageTradeDuration": "00:00:00",
+      "AverageWinningTradeDuration": "00:00:00",
+      "AverageLosingTradeDuration": "00:00:00",
+      "MedianTradeDuration": "00:00:00",
+      "MedianWinningTradeDuration": "00:00:00",
+      "MedianLosingTradeDuration": "00:00:00",
+      "MaxConsecutiveWinningTrades": 0,
+      "MaxConsecutiveLosingTrades": 0,
+      "ProfitLossRatio": "0",
+      "WinLossRatio": "0",
+      "WinRate": "0",
+      "LossRate": "0",
+      "AverageMAE": "0",
+      "AverageMFE": "0",
+      "LargestMAE": "0",
+      "LargestMFE": "0",
+      "MaximumClosedTradeDrawdown": "0",
+      "MaximumIntraTradeDrawdown": "0",
+      "ProfitLossStandardDeviation": "0",
+      "ProfitLossDownsideDeviation": "0",
+      "ProfitFactor": "0",
+      "SharpeRatio": "0",
+      "SortinoRatio": "0",
+      "ProfitToMaxDrawdownRatio": "0",
+      "MaximumEndTradeDrawdown": "0",
+      "AverageEndTradeDrawdown": "0",
+      "MaximumDrawdownDuration": "00:00:00",
+      "TotalFees": "0"
+    },
+    "PortfolioStatistics": {
+      "AverageWinRate": "0",
+      "AverageLossRate": "0",
+      "ProfitLossRatio": "0",
+      "WinRate": "0",
+      "LossRate": "0",
+      "Expectancy": "0",
+      "CompoundingAnnualReturn": "0",
+      "Drawdown": "0",
+      "TotalNetProfit": "0",
+      "SharpeRatio": "0",
+      "ProbabilisticSharpeRatio": "0",
+      "Alpha": "0",
+      "Beta": "0",
+      "AnnualStandardDeviation": "0",
+      "AnnualVariance": "0",
+      "InformationRatio": "-0.9814",
+      "TrackingError": "0.1866",
+      "TreynorRatio": "0"
+    },
+    "ClosedTrades": []
+  },
+  "AlphaRuntimeStatistics": {
+    "MeanPopulationScore": {
+      "UpdatedTimeUtc": "0001-01-01T00:00:00",
+      "Direction": 0.0,
+      "Magnitude": 0.0,
+      "IsFinalScore": false
+    },
+    "RollingAveragedPopulationScore": {
+      "UpdatedTimeUtc": "0001-01-01T00:00:00",
+      "Direction": 0.0,
+      "Magnitude": 0.0,
+      "IsFinalScore": false
+    },
+    "LongShortRatio": 1.0,
+    "ReturnOverMaxDrawdown": "79228162514264337593543950335",
+    "SortinoRatio": "79228162514264337593543950335"
+  },
+  "Charts": {
+    "Benchmark": {
+      "Name": "Benchmark",
+      "ChartType": 0,
+      "Series": {
+        "Benchmark": {
+          "Name": "Benchmark",
+          "Unit": "$",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1514782800,
+              "y": 251.4712
+            },
+            {
+              "x": 1514926800,
+              "y": 253.271
+            },
+            {
+              "x": 1515013200,
+              "y": 254.873
+            },
+            {
+              "x": 1515099600,
+              "y": 255.9473
+            },
+            {
+              "x": 1515186000,
+              "y": 257.6529
+            },
+            {
+              "x": 1515445200,
+              "y": 258.124
+            },
+            {
+              "x": 1515531600,
+              "y": 258.7083
+            },
+            {
+              "x": 1515618000,
+              "y": 258.3125
+            },
+            {
+              "x": 1515704400,
+              "y": 260.1972
+            },
+            {
+              "x": 1515790800,
+              "y": 261.8934
+            },
+            {
+              "x": 1516136400,
+              "y": 260.9982
+            },
+            {
+              "x": 1516222800,
+              "y": 263.4859
+            },
+            {
+              "x": 1516309200,
+              "y": 263.043
+            },
+            {
+              "x": 1516395600,
+              "y": 264.2398
+            },
+            {
+              "x": 1516654800,
+              "y": 266.3883
+            },
+            {
+              "x": 1516741200,
+              "y": 266.9537
+            },
+            {
+              "x": 1516827600,
+              "y": 266.8501
+            },
+            {
+              "x": 1516914000,
+              "y": 266.9631
+            },
+            {
+              "x": 1517000400,
+              "y": 270.054
+            },
+            {
+              "x": 1517259600,
+              "y": 268.2636
+            },
+            {
+              "x": 1517346000,
+              "y": 265.5119
+            },
+            {
+              "x": 1517432400,
+              "y": 265.6439
+            },
+            {
+              "x": 1517518800,
+              "y": 265.3423
+            },
+            {
+              "x": 1517605200,
+              "y": 259.5658
+            },
+            {
+              "x": 1517864400,
+              "y": 248.7101
+            },
+            {
+              "x": 1517950800,
+              "y": 253.6103
+            },
+            {
+              "x": 1518037200,
+              "y": 252.2345
+            },
+            {
+              "x": 1518123600,
+              "y": 242.7734
+            },
+            {
+              "x": 1518210000,
+              "y": 246.4203
+            },
+            {
+              "x": 1518469200,
+              "y": 250.0388
+            },
+            {
+              "x": 1518555600,
+              "y": 250.6608
+            },
+            {
+              "x": 1518642000,
+              "y": 254.0437
+            },
+            {
+              "x": 1518728400,
+              "y": 257.2854
+            },
+            {
+              "x": 1518814800,
+              "y": 257.3608
+            },
+            {
+              "x": 1519160400,
+              "y": 255.7494
+            },
+            {
+              "x": 1519246800,
+              "y": 254.4772
+            },
+            {
+              "x": 1519333200,
+              "y": 254.807
+            },
+            {
+              "x": 1519419600,
+              "y": 258.8685
+            },
+            {
+              "x": 1519678800,
+              "y": 261.8745
+            },
+            {
+              "x": 1519765200,
+              "y": 258.6046
+            },
+            {
+              "x": 1519851600,
+              "y": 255.9849
+            },
+            {
+              "x": 1519938000,
+              "y": 252.2627
+            },
+            {
+              "x": 1520024400,
+              "y": 253.5632
+            },
+            {
+              "x": 1520283600,
+              "y": 256.4938
+            },
+            {
+              "x": 1520370000,
+              "y": 257.144
+            },
+            {
+              "x": 1520456400,
+              "y": 257.0498
+            },
+            {
+              "x": 1520542800,
+              "y": 258.2937
+            },
+            {
+              "x": 1520629200,
+              "y": 262.7886
+            },
+            {
+              "x": 1520884800,
+              "y": 262.4588
+            },
+            {
+              "x": 1520971200,
+              "y": 260.7626
+            },
+            {
+              "x": 1521057600,
+              "y": 259.4245
+            },
+            {
+              "x": 1521144000,
+              "y": 259.1418
+            },
+            {
+              "x": 1521230400,
+              "y": 259.4256
+            }
+          ],
+          "SeriesType": 0,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    },
+    "Drawdown": {
+      "Name": "Drawdown",
+      "ChartType": 0,
+      "Series": {
+        "Equity Drawdown": {
+          "Name": "Equity Drawdown",
+          "Unit": "%",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1514782800,
+              "y": 0.0
+            },
+            {
+              "x": 1514926800,
+              "y": 0.0
+            },
+            {
+              "x": 1515013200,
+              "y": 0.0
+            },
+            {
+              "x": 1515099600,
+              "y": 0.0
+            },
+            {
+              "x": 1515186000,
+              "y": 0.0
+            },
+            {
+              "x": 1515445200,
+              "y": 0.0
+            },
+            {
+              "x": 1515531600,
+              "y": 0.0
+            },
+            {
+              "x": 1515618000,
+              "y": 0.0
+            },
+            {
+              "x": 1515704400,
+              "y": 0.0
+            },
+            {
+              "x": 1515790800,
+              "y": 0.0
+            },
+            {
+              "x": 1516136400,
+              "y": 0.0
+            },
+            {
+              "x": 1516222800,
+              "y": 0.0
+            },
+            {
+              "x": 1516309200,
+              "y": 0.0
+            },
+            {
+              "x": 1516395600,
+              "y": 0.0
+            },
+            {
+              "x": 1516654800,
+              "y": 0.0
+            },
+            {
+              "x": 1516741200,
+              "y": 0.0
+            },
+            {
+              "x": 1516827600,
+              "y": 0.0
+            },
+            {
+              "x": 1516914000,
+              "y": 0.0
+            },
+            {
+              "x": 1517000400,
+              "y": 0.0
+            },
+            {
+              "x": 1517259600,
+              "y": 0.0
+            },
+            {
+              "x": 1517346000,
+              "y": 0.0
+            },
+            {
+              "x": 1517432400,
+              "y": 0.0
+            },
+            {
+              "x": 1517518800,
+              "y": 0.0
+            },
+            {
+              "x": 1517605200,
+              "y": 0.0
+            },
+            {
+              "x": 1517864400,
+              "y": 0.0
+            },
+            {
+              "x": 1517950800,
+              "y": 0.0
+            },
+            {
+              "x": 1518037200,
+              "y": 0.0
+            },
+            {
+              "x": 1518123600,
+              "y": 0.0
+            },
+            {
+              "x": 1518210000,
+              "y": 0.0
+            },
+            {
+              "x": 1518469200,
+              "y": 0.0
+            },
+            {
+              "x": 1518555600,
+              "y": 0.0
+            },
+            {
+              "x": 1518642000,
+              "y": 0.0
+            },
+            {
+              "x": 1518728400,
+              "y": 0.0
+            },
+            {
+              "x": 1518814800,
+              "y": 0.0
+            },
+            {
+              "x": 1519160400,
+              "y": 0.0
+            },
+            {
+              "x": 1519246800,
+              "y": 0.0
+            },
+            {
+              "x": 1519333200,
+              "y": 0.0
+            },
+            {
+              "x": 1519419600,
+              "y": 0.0
+            },
+            {
+              "x": 1519678800,
+              "y": 0.0
+            },
+            {
+              "x": 1519765200,
+              "y": 0.0
+            },
+            {
+              "x": 1519851600,
+              "y": 0.0
+            },
+            {
+              "x": 1519938000,
+              "y": 0.0
+            },
+            {
+              "x": 1520024400,
+              "y": 0.0
+            },
+            {
+              "x": 1520283600,
+              "y": 0.0
+            },
+            {
+              "x": 1520370000,
+              "y": 0.0
+            },
+            {
+              "x": 1520456400,
+              "y": 0.0
+            },
+            {
+              "x": 1520542800,
+              "y": 0.0
+            },
+            {
+              "x": 1520629200,
+              "y": 0.0
+            },
+            {
+              "x": 1520884800,
+              "y": 0.0
+            },
+            {
+              "x": 1520971200,
+              "y": 0.0
+            },
+            {
+              "x": 1521057600,
+              "y": 0.0
+            },
+            {
+              "x": 1521144000,
+              "y": 0.0
+            },
+            {
+              "x": 1521230400,
+              "y": 0.0
+            }
+          ],
+          "SeriesType": 0,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    },
+    "Capacity": {
+      "Name": "Capacity",
+      "ChartType": 0,
+      "Series": {
+        "Strategy Capacity": {
+          "Name": "Strategy Capacity",
+          "Unit": "$",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1514782800,
+              "y": 0.0
+            },
+            {
+              "x": 1514926800,
+              "y": 0.0
+            },
+            {
+              "x": 1515013200,
+              "y": 0.0
+            },
+            {
+              "x": 1515099600,
+              "y": 0.0
+            },
+            {
+              "x": 1515186000,
+              "y": 0.0
+            },
+            {
+              "x": 1515445200,
+              "y": 0.0
+            },
+            {
+              "x": 1515531600,
+              "y": 0.0
+            },
+            {
+              "x": 1515618000,
+              "y": 0.0
+            },
+            {
+              "x": 1515704400,
+              "y": 0.0
+            },
+            {
+              "x": 1515790800,
+              "y": 0.0
+            },
+            {
+              "x": 1516136400,
+              "y": 0.0
+            },
+            {
+              "x": 1516222800,
+              "y": 0.0
+            },
+            {
+              "x": 1516309200,
+              "y": 0.0
+            },
+            {
+              "x": 1516395600,
+              "y": 0.0
+            },
+            {
+              "x": 1516654800,
+              "y": 0.0
+            },
+            {
+              "x": 1516741200,
+              "y": 0.0
+            },
+            {
+              "x": 1516827600,
+              "y": 0.0
+            },
+            {
+              "x": 1516914000,
+              "y": 0.0
+            },
+            {
+              "x": 1517000400,
+              "y": 0.0
+            },
+            {
+              "x": 1517259600,
+              "y": 0.0
+            },
+            {
+              "x": 1517346000,
+              "y": 0.0
+            },
+            {
+              "x": 1517432400,
+              "y": 0.0
+            },
+            {
+              "x": 1517518800,
+              "y": 0.0
+            },
+            {
+              "x": 1517605200,
+              "y": 0.0
+            },
+            {
+              "x": 1517864400,
+              "y": 0.0
+            },
+            {
+              "x": 1517950800,
+              "y": 0.0
+            },
+            {
+              "x": 1518037200,
+              "y": 0.0
+            },
+            {
+              "x": 1518123600,
+              "y": 0.0
+            },
+            {
+              "x": 1518210000,
+              "y": 0.0
+            },
+            {
+              "x": 1518469200,
+              "y": 0.0
+            },
+            {
+              "x": 1518555600,
+              "y": 0.0
+            },
+            {
+              "x": 1518642000,
+              "y": 0.0
+            },
+            {
+              "x": 1518728400,
+              "y": 0.0
+            },
+            {
+              "x": 1518814800,
+              "y": 0.0
+            },
+            {
+              "x": 1519160400,
+              "y": 0.0
+            },
+            {
+              "x": 1519246800,
+              "y": 0.0
+            },
+            {
+              "x": 1519333200,
+              "y": 0.0
+            },
+            {
+              "x": 1519419600,
+              "y": 0.0
+            },
+            {
+              "x": 1519678800,
+              "y": 0.0
+            },
+            {
+              "x": 1519765200,
+              "y": 0.0
+            },
+            {
+              "x": 1519851600,
+              "y": 0.0
+            },
+            {
+              "x": 1519938000,
+              "y": 0.0
+            },
+            {
+              "x": 1520024400,
+              "y": 0.0
+            },
+            {
+              "x": 1520283600,
+              "y": 0.0
+            },
+            {
+              "x": 1520370000,
+              "y": 0.0
+            },
+            {
+              "x": 1520456400,
+              "y": 0.0
+            },
+            {
+              "x": 1520542800,
+              "y": 0.0
+            },
+            {
+              "x": 1520629200,
+              "y": 0.0
+            },
+            {
+              "x": 1520884800,
+              "y": 0.0
+            },
+            {
+              "x": 1520971200,
+              "y": 0.0
+            },
+            {
+              "x": 1521057600,
+              "y": 0.0
+            },
+            {
+              "x": 1521144000,
+              "y": 0.0
+            },
+            {
+              "x": 1521230400,
+              "y": 0.0
+            }
+          ],
+          "SeriesType": 0,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    },
+    "Strategy Equity": {
+      "Name": "Strategy Equity",
+      "ChartType": 0,
+      "Series": {
+        "Equity": {
+          "Name": "Equity",
+          "Unit": "$",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1514782800,
+              "y": 100000.0
+            },
+            {
+              "x": 1514905200,
+              "y": 100000.0
+            },
+            {
+              "x": 1514926800,
+              "y": 100000.0
+            },
+            {
+              "x": 1514991600,
+              "y": 100000.0
+            },
+            {
+              "x": 1515013200,
+              "y": 100000.0
+            },
+            {
+              "x": 1515078000,
+              "y": 100000.0
+            },
+            {
+              "x": 1515099600,
+              "y": 100000.0
+            },
+            {
+              "x": 1515164400,
+              "y": 100000.0
+            },
+            {
+              "x": 1515186000,
+              "y": 100000.0
+            },
+            {
+              "x": 1515423600,
+              "y": 100000.0
+            },
+            {
+              "x": 1515445200,
+              "y": 100000.0
+            },
+            {
+              "x": 1515510000,
+              "y": 100000.0
+            },
+            {
+              "x": 1515531600,
+              "y": 100000.0
+            },
+            {
+              "x": 1515596400,
+              "y": 100000.0
+            },
+            {
+              "x": 1515618000,
+              "y": 100000.0
+            },
+            {
+              "x": 1515682800,
+              "y": 100000.0
+            },
+            {
+              "x": 1515704400,
+              "y": 100000.0
+            },
+            {
+              "x": 1515769200,
+              "y": 100000.0
+            },
+            {
+              "x": 1515790800,
+              "y": 100000.0
+            },
+            {
+              "x": 1516114800,
+              "y": 100000.0
+            },
+            {
+              "x": 1516136400,
+              "y": 100000.0
+            },
+            {
+              "x": 1516201200,
+              "y": 100000.0
+            },
+            {
+              "x": 1516222800,
+              "y": 100000.0
+            },
+            {
+              "x": 1516287600,
+              "y": 100000.0
+            },
+            {
+              "x": 1516309200,
+              "y": 100000.0
+            },
+            {
+              "x": 1516374000,
+              "y": 100000.0
+            },
+            {
+              "x": 1516395600,
+              "y": 100000.0
+            },
+            {
+              "x": 1516633200,
+              "y": 100000.0
+            },
+            {
+              "x": 1516654800,
+              "y": 100000.0
+            },
+            {
+              "x": 1516719600,
+              "y": 100000.0
+            },
+            {
+              "x": 1516741200,
+              "y": 100000.0
+            },
+            {
+              "x": 1516806000,
+              "y": 100000.0
+            },
+            {
+              "x": 1516827600,
+              "y": 100000.0
+            },
+            {
+              "x": 1516892400,
+              "y": 100000.0
+            },
+            {
+              "x": 1516914000,
+              "y": 100000.0
+            },
+            {
+              "x": 1516978800,
+              "y": 100000.0
+            },
+            {
+              "x": 1517000400,
+              "y": 100000.0
+            },
+            {
+              "x": 1517238000,
+              "y": 100000.0
+            },
+            {
+              "x": 1517259600,
+              "y": 100000.0
+            },
+            {
+              "x": 1517324400,
+              "y": 100000.0
+            },
+            {
+              "x": 1517346000,
+              "y": 100000.0
+            },
+            {
+              "x": 1517410800,
+              "y": 100000.0
+            },
+            {
+              "x": 1517432400,
+              "y": 100000.0
+            },
+            {
+              "x": 1517497200,
+              "y": 100000.0
+            },
+            {
+              "x": 1517518800,
+              "y": 100000.0
+            },
+            {
+              "x": 1517583600,
+              "y": 100000.0
+            },
+            {
+              "x": 1517605200,
+              "y": 100000.0
+            },
+            {
+              "x": 1517842800,
+              "y": 100000.0
+            },
+            {
+              "x": 1517864400,
+              "y": 100000.0
+            },
+            {
+              "x": 1517929200,
+              "y": 100000.0
+            },
+            {
+              "x": 1517950800,
+              "y": 100000.0
+            },
+            {
+              "x": 1518015600,
+              "y": 100000.0
+            },
+            {
+              "x": 1518037200,
+              "y": 100000.0
+            },
+            {
+              "x": 1518102000,
+              "y": 100000.0
+            },
+            {
+              "x": 1518123600,
+              "y": 100000.0
+            },
+            {
+              "x": 1518188400,
+              "y": 100000.0
+            },
+            {
+              "x": 1518210000,
+              "y": 100000.0
+            },
+            {
+              "x": 1518447600,
+              "y": 100000.0
+            },
+            {
+              "x": 1518469200,
+              "y": 100000.0
+            },
+            {
+              "x": 1518534000,
+              "y": 100000.0
+            },
+            {
+              "x": 1518555600,
+              "y": 100000.0
+            },
+            {
+              "x": 1518620400,
+              "y": 100000.0
+            },
+            {
+              "x": 1518642000,
+              "y": 100000.0
+            },
+            {
+              "x": 1518706800,
+              "y": 100000.0
+            },
+            {
+              "x": 1518728400,
+              "y": 100000.0
+            },
+            {
+              "x": 1518793200,
+              "y": 100000.0
+            },
+            {
+              "x": 1518814800,
+              "y": 100000.0
+            },
+            {
+              "x": 1519138800,
+              "y": 100000.0
+            },
+            {
+              "x": 1519160400,
+              "y": 100000.0
+            },
+            {
+              "x": 1519225200,
+              "y": 100000.0
+            },
+            {
+              "x": 1519246800,
+              "y": 100000.0
+            },
+            {
+              "x": 1519311600,
+              "y": 100000.0
+            },
+            {
+              "x": 1519333200,
+              "y": 100000.0
+            },
+            {
+              "x": 1519398000,
+              "y": 100000.0
+            },
+            {
+              "x": 1519419600,
+              "y": 100000.0
+            },
+            {
+              "x": 1519657200,
+              "y": 100000.0
+            },
+            {
+              "x": 1519678800,
+              "y": 100000.0
+            },
+            {
+              "x": 1519743600,
+              "y": 100000.0
+            },
+            {
+              "x": 1519765200,
+              "y": 100000.0
+            },
+            {
+              "x": 1519830000,
+              "y": 100000.0
+            },
+            {
+              "x": 1519851600,
+              "y": 100000.0
+            },
+            {
+              "x": 1519916400,
+              "y": 100000.0
+            },
+            {
+              "x": 1519938000,
+              "y": 100000.0
+            },
+            {
+              "x": 1520002800,
+              "y": 100000.0
+            },
+            {
+              "x": 1520024400,
+              "y": 100000.0
+            },
+            {
+              "x": 1520262000,
+              "y": 100000.0
+            },
+            {
+              "x": 1520283600,
+              "y": 100000.0
+            },
+            {
+              "x": 1520348400,
+              "y": 100000.0
+            },
+            {
+              "x": 1520370000,
+              "y": 100000.0
+            },
+            {
+              "x": 1520434800,
+              "y": 100000.0
+            },
+            {
+              "x": 1520456400,
+              "y": 100000.0
+            },
+            {
+              "x": 1520521200,
+              "y": 100000.0
+            },
+            {
+              "x": 1520542800,
+              "y": 100000.0
+            },
+            {
+              "x": 1520607600,
+              "y": 100000.0
+            },
+            {
+              "x": 1520629200,
+              "y": 100000.0
+            },
+            {
+              "x": 1520863200,
+              "y": 100000.0
+            },
+            {
+              "x": 1520884800,
+              "y": 100000.0
+            },
+            {
+              "x": 1520949600,
+              "y": 100000.0
+            },
+            {
+              "x": 1520971200,
+              "y": 100000.0
+            },
+            {
+              "x": 1521036000,
+              "y": 100000.0
+            },
+            {
+              "x": 1521057600,
+              "y": 100000.0
+            },
+            {
+              "x": 1521122400,
+              "y": 100000.0
+            },
+            {
+              "x": 1521144000,
+              "y": 100000.0
+            },
+            {
+              "x": 1521208800,
+              "y": 100000.0
+            },
+            {
+              "x": 1521230400,
+              "y": 100000.0
+            },
+            {
+              "x": 1521432000,
+              "y": 100000.0
+            }
+          ],
+          "SeriesType": 2,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        },
+        "Daily Performance": {
+          "Name": "Daily Performance",
+          "Unit": "%",
+          "Index": 1,
+          "Values": [
+            {
+              "x": 1514782800,
+              "y": 0.0
+            },
+            {
+              "x": 1514926800,
+              "y": 0.0
+            },
+            {
+              "x": 1515013200,
+              "y": 0.0
+            },
+            {
+              "x": 1515099600,
+              "y": 0.0
+            },
+            {
+              "x": 1515186000,
+              "y": 0.0
+            },
+            {
+              "x": 1515445200,
+              "y": 0.0
+            },
+            {
+              "x": 1515531600,
+              "y": 0.0
+            },
+            {
+              "x": 1515618000,
+              "y": 0.0
+            },
+            {
+              "x": 1515704400,
+              "y": 0.0
+            },
+            {
+              "x": 1515790800,
+              "y": 0.0
+            },
+            {
+              "x": 1516136400,
+              "y": 0.0
+            },
+            {
+              "x": 1516222800,
+              "y": 0.0
+            },
+            {
+              "x": 1516309200,
+              "y": 0.0
+            },
+            {
+              "x": 1516395600,
+              "y": 0.0
+            },
+            {
+              "x": 1516654800,
+              "y": 0.0
+            },
+            {
+              "x": 1516741200,
+              "y": 0.0
+            },
+            {
+              "x": 1516827600,
+              "y": 0.0
+            },
+            {
+              "x": 1516914000,
+              "y": 0.0
+            },
+            {
+              "x": 1517000400,
+              "y": 0.0
+            },
+            {
+              "x": 1517259600,
+              "y": 0.0
+            },
+            {
+              "x": 1517346000,
+              "y": 0.0
+            },
+            {
+              "x": 1517432400,
+              "y": 0.0
+            },
+            {
+              "x": 1517518800,
+              "y": 0.0
+            },
+            {
+              "x": 1517605200,
+              "y": 0.0
+            },
+            {
+              "x": 1517864400,
+              "y": 0.0
+            },
+            {
+              "x": 1517950800,
+              "y": 0.0
+            },
+            {
+              "x": 1518037200,
+              "y": 0.0
+            },
+            {
+              "x": 1518123600,
+              "y": 0.0
+            },
+            {
+              "x": 1518210000,
+              "y": 0.0
+            },
+            {
+              "x": 1518469200,
+              "y": 0.0
+            },
+            {
+              "x": 1518555600,
+              "y": 0.0
+            },
+            {
+              "x": 1518642000,
+              "y": 0.0
+            },
+            {
+              "x": 1518728400,
+              "y": 0.0
+            },
+            {
+              "x": 1518814800,
+              "y": 0.0
+            },
+            {
+              "x": 1519160400,
+              "y": 0.0
+            },
+            {
+              "x": 1519246800,
+              "y": 0.0
+            },
+            {
+              "x": 1519333200,
+              "y": 0.0
+            },
+            {
+              "x": 1519419600,
+              "y": 0.0
+            },
+            {
+              "x": 1519678800,
+              "y": 0.0
+            },
+            {
+              "x": 1519765200,
+              "y": 0.0
+            },
+            {
+              "x": 1519851600,
+              "y": 0.0
+            },
+            {
+              "x": 1519938000,
+              "y": 0.0
+            },
+            {
+              "x": 1520024400,
+              "y": 0.0
+            },
+            {
+              "x": 1520283600,
+              "y": 0.0
+            },
+            {
+              "x": 1520370000,
+              "y": 0.0
+            },
+            {
+              "x": 1520456400,
+              "y": 0.0
+            },
+            {
+              "x": 1520542800,
+              "y": 0.0
+            },
+            {
+              "x": 1520629200,
+              "y": 0.0
+            },
+            {
+              "x": 1520884800,
+              "y": 0.0
+            },
+            {
+              "x": 1520971200,
+              "y": 0.0
+            },
+            {
+              "x": 1521057600,
+              "y": 0.0
+            },
+            {
+              "x": 1521144000,
+              "y": 0.0
+            },
+            {
+              "x": 1521230400,
+              "y": 0.0
+            }
+          ],
+          "SeriesType": 3,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    }
+  },
+  "Orders": {},
+  "ProfitLoss": {},
+  "Statistics": {
+    "Total Trades": "0",
+    "Average Win": "0%",
+    "Average Loss": "0%",
+    "Compounding Annual Return": "0%",
+    "Drawdown": "0%",
+    "Expectancy": "0",
+    "Net Profit": "0%",
+    "Sharpe Ratio": "0",
+    "Probabilistic Sharpe Ratio": "0%",
+    "Loss Rate": "0%",
+    "Win Rate": "0%",
+    "Profit-Loss Ratio": "0",
+    "Alpha": "0",
+    "Beta": "0",
+    "Annual Standard Deviation": "0",
+    "Annual Variance": "0",
+    "Information Ratio": "-0.981",
+    "Tracking Error": "0.187",
+    "Treynor Ratio": "0",
+    "Total Fees": "$0.00",
+    "Estimated Strategy Capacity": "$0",
+    "Lowest Capacity Asset": ""
+  },
+  "RuntimeStatistics": {
+    "Probabilistic Sharpe Ratio": "0%",
+    "Unrealized": "$0.00",
+    "Fees": "-$0.00",
+    "Net Profit": "$0.00",
+    "Return": "0.00 %",
+    "Equity": "$100,000.00",
+    "Holdings": "$0.00",
+    "Volume": "$0.00",
+    "Capacity": "$0"
+  }
+}

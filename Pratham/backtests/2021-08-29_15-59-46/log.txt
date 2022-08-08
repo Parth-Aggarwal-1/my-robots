@@ -1,0 +1,120 @@
+2021-08-29T14:59:51.1190832Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2021-08-29T14:59:51.1225498Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2021-08-29T14:59:51.1232916Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Lean/Data
+2021-08-29T14:59:51.1240810Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: Parths-MacBook-Pro
+2021-08-29T14:59:51.1287313Z TRACE:: Engine.Main(): Started 2:59 PM
+2021-08-29T14:59:51.1325881Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2021-08-29T14:59:51.1483439Z TRACE:: JobQueue.NextJob(): Selected Pratham.dll
+2021-08-29T14:59:51.2220386Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2021-08-29T14:59:51.2234171Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2021-08-29T14:59:51.2240868Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2021-08-29T14:59:51.2249536Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: Pratham
+2021-08-29T14:59:51.2276717Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2021-08-29T14:59:51.2288086Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2021-08-29T14:59:51.2303965Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2021-08-29T14:59:51.2390972Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2021-08-29T14:59:51.2421679Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2021-08-29T14:59:51.2608360Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2021-08-29T14:59:51.5121181Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2021-08-29T14:59:51.5180517Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2021-08-29T14:59:51.5394302Z TRACE:: Config.GetValue(): api-data-update-period - Using default value: 1
+2021-08-29T14:59:51.6184485Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded Pratham
+2021-08-29T14:59:51.6524355Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage/Pratham. StorageFileCount 100. StorageLimitMB 5
+2021-08-29T14:59:51.6682766Z TRACE:: BacktestingSetupHandler.Setup(): Setting up job: Plan: Free, UID: 127638, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2021-08-29T14:59:51.6751364Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2021-08-29T14:59:51.7624353Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2021-08-29T14:59:51.7638558Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 6
+2021-08-29T14:59:51.7651432Z TRACE:: WeightedWorkScheduler(): will use 6 workers and MaxWorkWeight is 400
+2021-08-29T14:59:51.7999446Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2021-08-29T14:59:52.2122403Z TRACE:: Failed to assign conversion rates for the following cash: EUR. Attempting to request daily resolution history to resolve conversion rate
+2021-08-29T14:59:52.2378729Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+EUR: €           0.00 @       0.00 = $0
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2021-08-29T14:59:52.2433219Z TRACE:: SetUp Backtesting: User: 127638 ProjectId: 0 AlgoId: Pratham
+2021-08-29T14:59:52.2489683Z TRACE:: Dates: Start: 01/04/2021 End: 01/05/2021 Cash: ¤100,000.00
+2021-08-29T14:59:52.2542427Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2021-08-29T14:59:52.2567659Z TRACE:: Time.TradeableDates(): Security Count: 1
+2021-08-29T14:59:52.2606320Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2021-08-29T14:59:52.2641398Z TRACE:: JOB HANDLERS: 
+2021-08-29T14:59:52.2652516Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2021-08-29T14:59:52.2661897Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2021-08-29T14:59:52.2674773Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2021-08-29T14:59:52.2684219Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2021-08-29T14:59:52.2694900Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2021-08-29T14:59:52.2703672Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2021-08-29T14:59:52.2712790Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2021-08-29T14:59:52.2721847Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2021-08-29T14:59:52.2893720Z TRACE:: Debug: Launching analysis for Pratham with LEAN Engine v2.5.0.0
+2021-08-29T14:59:52.2970181Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 1/4/2021 12:00:00 AM Stop: 1/5/2021 11:59:59 PM
+2021-08-29T14:59:52.3459173Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed EURUSD,EURUSD,Hour,QuoteBar,Quote,Adjusted,Internal
+2021-08-29T14:59:52.3965880Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2021-08-29T14:59:52.3980407Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2021-08-29T14:59:52.4065645Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2021-08-29T14:59:52.4078128Z TRACE:: Debug: Initializing
+2021-08-29T14:59:52.4102715Z TRACE:: Debug: Algorithm Id:(Pratham) completed in 0.14 seconds at 0k data points per second. Processing total of 1 data points.
+2021-08-29T14:59:52.4141998Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2021-08-29T14:59:52.4174119Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2021-08-29T14:59:52.4190285Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2021-08-29T14:59:52.4254803Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2021-08-29T14:59:52.4269174Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2021-08-29T14:59:52.4284620Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2021-08-29T14:59:52.4349543Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/Pratham-log.txt
+2021-08-29T14:59:52.4353003Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2021-08-29T14:59:52.4363771Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2021-08-29T14:59:52.5606760Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2021-08-29T14:59:52.5617922Z TRACE:: 
+STATISTICS:: Total Trades 0
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss 0%
+STATISTICS:: Compounding Annual Return 0%
+STATISTICS:: Drawdown 0%
+STATISTICS:: Expectancy 0
+STATISTICS:: Net Profit 0%
+STATISTICS:: Sharpe Ratio 0
+STATISTICS:: Probabilistic Sharpe Ratio 0%
+STATISTICS:: Loss Rate 0%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha 0
+STATISTICS:: Beta 0
+STATISTICS:: Annual Standard Deviation 0
+STATISTICS:: Annual Variance 0
+STATISTICS:: Information Ratio 0
+STATISTICS:: Tracking Error 0
+STATISTICS:: Treynor Ratio 0
+STATISTICS:: Total Fees $0.00
+STATISTICS:: Estimated Strategy Capacity $0
+STATISTICS:: Lowest Capacity Asset 
+STATISTICS:: Fitness Score 0
+STATISTICS:: Kelly Criterion Estimate 0
+STATISTICS:: Kelly Criterion Probability Value 0
+STATISTICS:: Sortino Ratio 0
+STATISTICS:: Return Over Maximum Drawdown 0
+STATISTICS:: Portfolio Turnover 0
+STATISTICS:: Total Insights Generated 0
+STATISTICS:: Total Insights Closed 0
+STATISTICS:: Total Insights Analysis Completed 0
+STATISTICS:: Long Insight Count 0
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $0
+STATISTICS:: Total Accumulated Estimated Alpha Value $0
+STATISTICS:: Mean Population Estimated Insight Value $0
+STATISTICS:: Mean Population Direction 0%
+STATISTICS:: Mean Population Magnitude 0%
+STATISTICS:: Rolling Averaged Population Direction 0%
+STATISTICS:: Rolling Averaged Population Magnitude 0%
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2021-08-29T14:59:52.5642425Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2021-08-29T14:59:52.5654236Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2021-08-29T14:59:52.5665438Z TRACE:: Engine.Run(): Disposing of setup handler...
+2021-08-29T14:59:52.5684104Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2021-08-29T14:59:52.5701225Z TRACE:: Engine.Main(): Packet removed from queue: Pratham
+2021-08-29T14:59:52.5714490Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2021-08-29T14:59:52.5727424Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2021-08-29T14:59:52.5736831Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2021-08-29T14:59:52.5798437Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

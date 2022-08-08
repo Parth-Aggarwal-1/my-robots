@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "/Users/parthaggarwal/.pyenv/versions/3.9.5/envs/leanclienv/bin/python3.9",
+    "python.languageServer": "Pylance",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true
+}

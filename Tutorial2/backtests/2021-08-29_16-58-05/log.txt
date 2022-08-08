@@ -1,0 +1,123 @@
+2021-08-29T15:58:11.0230573Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2021-08-29T15:58:11.0287603Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2021-08-29T15:58:11.0299936Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Lean/Data
+2021-08-29T15:58:11.0312072Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: Parths-MacBook-Pro
+2021-08-29T15:58:11.0397637Z TRACE:: Engine.Main(): Started 3:58 PM
+2021-08-29T15:58:11.0465105Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2021-08-29T15:58:11.0629562Z TRACE:: JobQueue.NextJob(): Selected Tutorial2.dll
+2021-08-29T15:58:11.1417002Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2021-08-29T15:58:11.1429727Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2021-08-29T15:58:11.1444780Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2021-08-29T15:58:11.1482451Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: Tutorial2
+2021-08-29T15:58:11.1512513Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2021-08-29T15:58:11.1533484Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2021-08-29T15:58:11.1560893Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2021-08-29T15:58:11.1729742Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2021-08-29T15:58:11.1753614Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2021-08-29T15:58:11.1898254Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2021-08-29T15:58:11.4459079Z TRACE:: DebuggerHelper.Initialize(): waiting for debugger to attach...
+2021-08-29T15:59:11.4774857Z TRACE:: Isolator.ExecuteWithTimeLimit(): Used: 6, Sample: 6, App: 173, CurrentTimeStepElapsed: 00:00.000
+2021-08-29T15:59:17.1047151Z TRACE:: DebuggerHelper.Initialize(): debugger attached
+2021-08-29T15:59:17.1069195Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2021-08-29T15:59:17.1107055Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2021-08-29T15:59:17.1226015Z TRACE:: Config.GetValue(): api-data-update-period - Using default value: 1
+2021-08-29T15:59:17.1844024Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded Tutorial2
+2021-08-29T15:59:17.2080040Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage/Tutorial2. StorageFileCount 100. StorageLimitMB 5
+2021-08-29T15:59:17.2226631Z TRACE:: BacktestingSetupHandler.Setup(): Setting up job: Plan: Free, UID: 127638, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2021-08-29T15:59:17.2283055Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2021-08-29T15:59:17.3854893Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2021-08-29T15:59:17.3886858Z TRACE:: SetUp Backtesting: User: 127638 ProjectId: 0 AlgoId: Tutorial2
+2021-08-29T15:59:17.3904544Z TRACE:: Dates: Start: 01/01/2018 End: 01/01/2021 Cash: ¤100,000.00
+2021-08-29T15:59:17.3939453Z TRACE:: BacktestingResultHandler(): Sample Period Set: 394.92
+2021-08-29T15:59:17.3953941Z TRACE:: Time.TradeableDates(): Security Count: 1
+2021-08-29T15:59:17.3990339Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2021-08-29T15:59:17.4013045Z TRACE:: JOB HANDLERS: 
+2021-08-29T15:59:17.4019340Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2021-08-29T15:59:17.4026992Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2021-08-29T15:59:17.4034582Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2021-08-29T15:59:17.4041762Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2021-08-29T15:59:17.4048391Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2021-08-29T15:59:17.4054920Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2021-08-29T15:59:17.4064349Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2021-08-29T15:59:17.4072892Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2021-08-29T15:59:17.4596109Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 1/1/2018 12:00:00 AM Stop: 1/1/2021 11:59:59 PM
+2021-08-29T15:59:17.5236273Z TRACE:: Debug: Launching analysis for Tutorial2 with LEAN Engine v2.5.0.0
+2021-08-29T15:59:17.5798020Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2021-08-29T15:59:17.5809996Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 6
+2021-08-29T15:59:17.5822440Z TRACE:: WeightedWorkScheduler(): will use 6 workers and MaxWorkWeight is 400
+2021-08-29T15:59:17.6686375Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2021-08-29T15:59:17.7662956Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,SPY,Hour,TradeBar,Trade,Adjusted,Internal
+2021-08-29T16:00:58.1310099Z TRACE:: Isolator.ExecuteWithTimeLimit(): Used: 0, Sample: 18, App: 277, CurrentTimeStepElapsed: 00:00.000
+2021-08-29T16:00:58.2533954Z ERROR:: BrokerageTransactionHandler.Update(): Cannot update closed order with status Filled
+2021-08-29T16:00:58.7256215Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2021-08-29T16:00:58.7268662Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2021-08-29T16:00:58.7286021Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2021-08-29T16:00:58.7346441Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2021-08-29T16:00:58.7380641Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2021-08-29T16:00:58.7395192Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2021-08-29T16:00:58.7450825Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2021-08-29T16:00:58.7465044Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2021-08-29T16:00:58.7476858Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2021-08-29T16:00:58.7551266Z TRACE:: Debug: Algorithm Id:(Tutorial2) completed in 101.32 seconds at 0k data points per second. Processing total of 10,546 data points.
+2021-08-29T16:00:58.7567589Z TRACE:: Debug: The starting dates for the following symbols have been adjusted to match their map files first date: [BHE, 2018-01-02]
+2021-08-29T16:00:58.7551615Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2021-08-29T16:00:58.7584119Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/Tutorial2-log.txt
+2021-08-29T16:00:58.7605244Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2021-08-29T16:00:59.1073589Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2021-08-29T16:00:59.1088309Z TRACE:: 
+STATISTICS:: Total Trades 48
+STATISTICS:: Average Win 3.25%
+STATISTICS:: Average Loss -2.81%
+STATISTICS:: Compounding Annual Return -4.776%
+STATISTICS:: Drawdown 28.900%
+STATISTICS:: Expectancy -0.190
+STATISTICS:: Net Profit -13.663%
+STATISTICS:: Sharpe Ratio -0.276
+STATISTICS:: Probabilistic Sharpe Ratio 1.393%
+STATISTICS:: Loss Rate 62%
+STATISTICS:: Win Rate 38%
+STATISTICS:: Profit-Loss Ratio 1.16
+STATISTICS:: Alpha -0.037
+STATISTICS:: Beta -0.007
+STATISTICS:: Annual Standard Deviation 0.14
+STATISTICS:: Annual Variance 0.019
+STATISTICS:: Information Ratio -0.777
+STATISTICS:: Tracking Error 0.269
+STATISTICS:: Treynor Ratio 5.73
+STATISTICS:: Total Fees $263.85
+STATISTICS:: Estimated Strategy Capacity $12000.00
+STATISTICS:: Lowest Capacity Asset BHE WQVYDSP9UNOL
+STATISTICS:: Fitness Score 0.026
+STATISTICS:: Kelly Criterion Estimate 0
+STATISTICS:: Kelly Criterion Probability Value 0
+STATISTICS:: Sortino Ratio -0.35
+STATISTICS:: Return Over Maximum Drawdown -0.165
+STATISTICS:: Portfolio Turnover 0.057
+STATISTICS:: Total Insights Generated 0
+STATISTICS:: Total Insights Closed 0
+STATISTICS:: Total Insights Analysis Completed 0
+STATISTICS:: Long Insight Count 0
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $0
+STATISTICS:: Total Accumulated Estimated Alpha Value $0
+STATISTICS:: Mean Population Estimated Insight Value $0
+STATISTICS:: Mean Population Direction 0%
+STATISTICS:: Mean Population Magnitude 0%
+STATISTICS:: Rolling Averaged Population Direction 0%
+STATISTICS:: Rolling Averaged Population Magnitude 0%
+STATISTICS:: OrderListHash a4efb90df4375773ed2ba51319f972d5
+2021-08-29T16:00:59.1098209Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2021-08-29T16:00:59.1115522Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2021-08-29T16:00:59.1136706Z TRACE:: Engine.Run(): Disposing of setup handler...
+2021-08-29T16:00:59.1146765Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2021-08-29T16:00:59.1167227Z TRACE:: Engine.Main(): Packet removed from queue: Tutorial2
+2021-08-29T16:00:59.1180744Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2021-08-29T16:00:59.1193560Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2021-08-29T16:00:59.1208775Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2021-08-29T16:00:59.1253412Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

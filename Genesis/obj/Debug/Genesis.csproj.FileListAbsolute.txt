@@ -1,0 +1,12 @@
+/Users/parthaggarwal/dev/lean-cli/Genesis/bin/Debug/Genesis.deps.json
+/Users/parthaggarwal/dev/lean-cli/Genesis/bin/Debug/Genesis.dll
+/Users/parthaggarwal/dev/lean-cli/Genesis/bin/Debug/ref/Genesis.dll
+/Users/parthaggarwal/dev/lean-cli/Genesis/bin/Debug/Genesis.pdb
+/Users/parthaggarwal/dev/lean-cli/Genesis/obj/Debug/Genesis.csprojAssemblyReference.cache
+/Users/parthaggarwal/dev/lean-cli/Genesis/obj/Debug/Genesis.GeneratedMSBuildEditorConfig.editorconfig
+/Users/parthaggarwal/dev/lean-cli/Genesis/obj/Debug/Genesis.AssemblyInfoInputs.cache
+/Users/parthaggarwal/dev/lean-cli/Genesis/obj/Debug/Genesis.AssemblyInfo.cs
+/Users/parthaggarwal/dev/lean-cli/Genesis/obj/Debug/Genesis.csproj.CoreCompileInputs.cache
+/Users/parthaggarwal/dev/lean-cli/Genesis/obj/Debug/Genesis.dll
+/Users/parthaggarwal/dev/lean-cli/Genesis/obj/Debug/ref/Genesis.dll
+/Users/parthaggarwal/dev/lean-cli/Genesis/obj/Debug/Genesis.pdb

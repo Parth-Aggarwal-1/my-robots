@@ -1,0 +1,76 @@
+2021-08-29T15:28:59.0361372Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2021-08-29T15:28:59.0419130Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2021-08-29T15:28:59.0432034Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Lean/Data
+2021-08-29T15:28:59.0454918Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: Parths-MacBook-Pro
+2021-08-29T15:28:59.0516562Z TRACE:: Engine.Main(): Started 3:28 PM
+2021-08-29T15:28:59.0584973Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2021-08-29T15:28:59.0770926Z TRACE:: JobQueue.NextJob(): Selected Pratham.dll
+2021-08-29T15:28:59.1578864Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2021-08-29T15:28:59.1594765Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2021-08-29T15:28:59.1603644Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2021-08-29T15:28:59.1615443Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: Pratham
+2021-08-29T15:28:59.1633745Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2021-08-29T15:28:59.1646299Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2021-08-29T15:28:59.1661004Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2021-08-29T15:28:59.1837035Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2021-08-29T15:28:59.1858361Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2021-08-29T15:28:59.1998737Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2021-08-29T15:28:59.4932927Z TRACE:: DebuggerHelper.Initialize(): waiting for debugger to attach...
+2021-08-29T15:29:39.9372039Z TRACE:: DebuggerHelper.Initialize(): debugger attached
+2021-08-29T15:29:39.9435587Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2021-08-29T15:29:39.9481145Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2021-08-29T15:29:39.9640373Z TRACE:: Config.GetValue(): api-data-update-period - Using default value: 1
+2021-08-29T15:29:40.0253197Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded Pratham
+2021-08-29T15:29:40.0505949Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage/Pratham. StorageFileCount 100. StorageLimitMB 5
+2021-08-29T15:29:40.0651382Z TRACE:: BacktestingSetupHandler.Setup(): Setting up job: Plan: Free, UID: 127638, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2021-08-29T15:29:40.0715167Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2021-08-29T15:30:13.9785420Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2021-08-29T15:30:13.9797079Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 6
+2021-08-29T15:30:13.9805309Z TRACE:: WeightedWorkScheduler(): will use 6 workers and MaxWorkWeight is 400
+2021-08-29T15:30:57.8915008Z TRACE:: Isolator.ExecuteWithTimeLimit(): Used: 3, Sample: 9, App: 261, CurrentTimeStepElapsed: 00:00.000
+2021-08-29T15:30:57.9183711Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2021-08-29T15:30:58.1194913Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+HUF: Ft           0.00 @   0.010898 = $0
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2021-08-29T15:30:58.1243196Z TRACE:: SetUp Backtesting: User: 127638 ProjectId: 0 AlgoId: Pratham
+2021-08-29T15:30:58.1255683Z TRACE:: Dates: Start: 01/04/2021 End: 01/05/2021 Cash: ¤100,000.00
+2021-08-29T15:30:58.1296010Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2021-08-29T15:30:58.1315804Z TRACE:: Time.TradeableDates(): Security Count: 1
+2021-08-29T15:30:58.1348974Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2021-08-29T15:30:58.4559820Z ERROR:: Engine.Run(): During the algorithm initialization, the following exception has occurred: Object reference not set to an instance of an object. in BacktestingSetupHandler.cs:line 186 Object reference not set to an instance of an object.
+2021-08-29T15:30:58.4584316Z TRACE:: JOB HANDLERS: 
+2021-08-29T15:30:58.4601242Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2021-08-29T15:30:58.4619405Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2021-08-29T15:30:58.4633087Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2021-08-29T15:30:58.4612989Z ERROR:: During the algorithm initialization, the following exception has occurred: Object reference not set to an instance of an object. in BacktestingSetupHandler.cs:line 186 Object reference not set to an instance of an object.
+2021-08-29T15:30:58.4645142Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2021-08-29T15:30:58.4671176Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2021-08-29T15:30:58.4684754Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2021-08-29T15:30:58.4696191Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2021-08-29T15:30:58.4707938Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2021-08-29T15:30:58.4723067Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2021-08-29T15:30:58.4750681Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2021-08-29T15:30:58.4763533Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2021-08-29T15:30:58.4825773Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2021-08-29T15:30:58.4840003Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2021-08-29T15:30:58.4961751Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2021-08-29T15:30:58.5019384Z TRACE:: Debug: Initializing
+2021-08-29T15:30:58.5021911Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2021-08-29T15:30:58.5029401Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/Pratham-log.txt
+2021-08-29T15:30:58.5043796Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2021-08-29T15:30:58.5733124Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2021-08-29T15:30:58.5749597Z TRACE:: 
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2021-08-29T15:30:58.5759778Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2021-08-29T15:30:58.5774605Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2021-08-29T15:30:58.5787049Z TRACE:: Engine.Run(): Disposing of setup handler...
+2021-08-29T15:30:58.5798946Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2021-08-29T15:30:58.5814601Z TRACE:: Engine.Main(): Packet removed from queue: Pratham
+2021-08-29T15:30:58.5824801Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2021-08-29T15:30:58.5834210Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2021-08-29T15:30:58.5844553Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2021-08-29T15:30:58.5886177Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

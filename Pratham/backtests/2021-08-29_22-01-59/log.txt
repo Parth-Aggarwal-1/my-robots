@@ -1,0 +1,18 @@
+2021-08-29T21:02:05.2550753Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2021-08-29T21:02:05.2587309Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2021-08-29T21:02:05.2595600Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Lean/Data
+2021-08-29T21:02:05.2603812Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: Parths-MacBook-Pro
+2021-08-29T21:02:05.2666946Z TRACE:: Engine.Main(): Started 9:02 PM
+2021-08-29T21:02:05.2714895Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2021-08-29T21:02:05.2860102Z TRACE:: JobQueue.NextJob(): Selected Pratham.dll
+2021-08-29T21:02:05.3653400Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2021-08-29T21:02:05.3666987Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2021-08-29T21:02:05.3676078Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2021-08-29T21:02:05.3688238Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: Pratham
+2021-08-29T21:02:05.3711054Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2021-08-29T21:02:05.3720375Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2021-08-29T21:02:05.3734469Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2021-08-29T21:02:05.3841763Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2021-08-29T21:02:05.3880132Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2021-08-29T21:02:05.4031237Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2021-08-29T21:02:05.6697244Z TRACE:: DebuggerHelper.Initialize(): waiting for debugger to attach...

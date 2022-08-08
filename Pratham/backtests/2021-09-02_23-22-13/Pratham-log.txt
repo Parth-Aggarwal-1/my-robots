@@ -1,0 +1,6 @@
+2020-11-10 00:00:00 Launching analysis for Pratham with LEAN Engine v2.5.0.0
+2016-08-15 20:00:00 Initializing
+2016-08-15 20:00:00 Algorithm warming up...
+2020-11-09 02:01:00 OnData
+2020-11-10 00:00:00 Runtime Error: Rolling window is empty (Parameter 'i') in RollingWindow.cs:line 143
+2020-11-10 00:00:00 Algorithm Id:(Pratham) completed in 25.45 seconds at 70k data points per second. Processing total of 1,776,978 data points.

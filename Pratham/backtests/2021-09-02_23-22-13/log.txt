@@ -1,0 +1,123 @@
+2021-09-02T22:22:20.6549240Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2021-09-02T22:22:20.6600548Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2021-09-02T22:22:20.6610182Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Lean/Data
+2021-09-02T22:22:20.6619662Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: Parths-MacBook-Pro
+2021-09-02T22:22:20.6685097Z TRACE:: Engine.Main(): Started 10:22 PM
+2021-09-02T22:22:20.6716022Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2021-09-02T22:22:20.6862204Z TRACE:: JobQueue.NextJob(): Selected Pratham.dll
+2021-09-02T22:22:20.7854378Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2021-09-02T22:22:20.7870138Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2021-09-02T22:22:20.7883356Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2021-09-02T22:22:20.7897803Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: Pratham
+2021-09-02T22:22:20.7920424Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2021-09-02T22:22:20.7933848Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2021-09-02T22:22:20.7966872Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2021-09-02T22:22:20.8093697Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2021-09-02T22:22:20.8124306Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2021-09-02T22:22:20.8249522Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2021-09-02T22:22:21.1116724Z TRACE:: DebuggerHelper.Initialize(): waiting for debugger to attach...
+2021-09-02T22:22:43.4654345Z TRACE:: DebuggerHelper.Initialize(): debugger attached
+2021-09-02T22:22:43.4673207Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2021-09-02T22:22:43.4705329Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2021-09-02T22:22:43.4920983Z TRACE:: Config.GetValue(): api-data-update-period - Using default value: 1
+2021-09-02T22:22:43.5653455Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded Pratham
+2021-09-02T22:22:43.5982589Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage/Pratham. StorageFileCount 100. StorageLimitMB 5
+2021-09-02T22:22:43.6167152Z TRACE:: BacktestingSetupHandler.Setup(): Setting up job: Plan: Free, UID: 127638, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2021-09-02T22:22:43.6235027Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2021-09-02T22:22:43.7273021Z TRACE:: Cash.EnsureCurrencyDataFeed(): Adding USDSGD for cash SGD currency feed
+2021-09-02T22:22:43.7305013Z TRACE:: Cash.EnsureCurrencyDataFeed(): Adding EURUSD for cash EUR currency feed
+2021-09-02T22:22:43.7693091Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2021-09-02T22:22:43.7710467Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 6
+2021-09-02T22:22:43.7722587Z TRACE:: WeightedWorkScheduler(): will use 6 workers and MaxWorkWeight is 400
+2021-09-02T22:22:43.8909949Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2021-09-02T22:22:43.9108795Z TRACE:: Failed to assign conversion rates for the following cash: SGD,EUR. Attempting to request daily resolution history to resolve conversion rate
+2021-09-02T22:22:44.0143986Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+SGD: $           0.00 @       0.00 = $0
+EUR: €           0.00 @       0.00 = $0
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2021-09-02T22:22:44.0188172Z TRACE:: SetUp Backtesting: User: 127638 ProjectId: 0 AlgoId: Pratham
+2021-09-02T22:22:44.0199008Z TRACE:: Dates: Start: 11/10/2020 End: 02/10/2021 Cash: ¤100,000.00
+2021-09-02T22:22:44.0229005Z TRACE:: BacktestingResultHandler(): Sample Period Set: 33.48
+2021-09-02T22:22:44.0244551Z TRACE:: Time.TradeableDates(): Security Count: 3
+2021-09-02T22:22:44.0275795Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2021-09-02T22:22:44.0304600Z TRACE:: JOB HANDLERS: 
+2021-09-02T22:22:44.0319452Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2021-09-02T22:22:44.0327908Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2021-09-02T22:22:44.0336893Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2021-09-02T22:22:44.0344160Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2021-09-02T22:22:44.0352310Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2021-09-02T22:22:44.0372377Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2021-09-02T22:22:44.0379872Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2021-09-02T22:22:44.0388558Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2021-09-02T22:22:44.0752910Z TRACE:: Debug: Launching analysis for Pratham with LEAN Engine v2.5.0.0
+2021-09-02T22:22:44.0867258Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 11/10/2020 12:00:00 AM Stop: 2/10/2021 11:59:59 PM
+2021-09-02T22:22:44.1107392Z TRACE:: AlgorithmManager.Stream(): WarmupHistoryRequest: EURUSD 8G: Start: 8/15/2016 11:00:00 PM End: 11/10/2020 5:00:00 AM Resolution: Daily
+2021-09-02T22:22:44.1118078Z TRACE:: AlgorithmManager.Stream(): WarmupHistoryRequest: USDSGD 8G: Start: 8/15/2016 11:00:00 PM End: 11/10/2020 5:00:00 AM Resolution: Daily
+2021-09-02T22:22:44.1128838Z TRACE:: AlgorithmManager.Stream(): WarmupHistoryRequest: EURSGD: Start: 11/9/2020 7:00:00 AM End: 11/10/2020 5:00:00 AM Resolution: Minute
+2021-09-02T22:22:44.2795922Z TRACE:: Debug: Initializing
+Algorithm warming up...
+2021-09-02T22:23:07.8007676Z TRACE:: Debug: OnData
+2021-09-02T22:23:07.8158183Z TRACE:: AlgorithmManager.Stream(): Finished warmup
+2021-09-02T22:23:07.8628097Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed EURUSD,EURUSD,Hour,QuoteBar,Quote,Adjusted,Internal
+2021-09-02T22:23:09.2456419Z ERROR:: Extensions.SetRuntimeError(): Extensions.SetRuntimeError(): RuntimeError at 11/10/2020 5:00:00 AM UTC. Context: OnData System.ArgumentOutOfRangeException: Rolling window is empty (Parameter 'i')
+   at QuantConnect.Indicators.RollingWindow`1.get_Item(Int32 i) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Indicators/RollingWindow.cs:line 143
+   at QuantConnect.Algorithm.CSharp.Pratham.AnchorChartIsTrendingUp()
+   at QuantConnect.Algorithm.CSharp.Pratham.OnData(Slice data)
+   at QuantConnect.Lean.Engine.AlgorithmManager.Run(AlgorithmNodePacket job, IAlgorithm algorithm, ISynchronizer synchronizer, ITransactionHandler transactions, IResultHandler results, IRealTimeHandler realtime, ILeanManager leanManager, IAlphaHandler alphas, CancellationToken token) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/AlgorithmManager.cs:line 117
+2021-09-02T22:23:09.5083969Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2021-09-02T22:23:09.5097088Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2021-09-02T22:23:09.5116077Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2021-09-02T22:23:09.5125382Z TRACE:: Engine.Run(): Sending runtime error to user...
+2021-09-02T22:23:09.5201923Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2021-09-02T22:23:09.5249861Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2021-09-02T22:23:09.5260119Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2021-09-02T22:23:09.5273059Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2021-09-02T22:23:09.5334684Z ERROR:: Runtime Error: Rolling window is empty (Parameter 'i') in RollingWindow.cs:line 143
+ System.Exception: Rolling window is empty (Parameter 'i') in RollingWindow.cs:line 143
+ ---> System.ArgumentOutOfRangeException: Rolling window is empty (Parameter 'i')
+   at QuantConnect.Indicators.RollingWindow`1.get_Item(Int32 i) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Indicators/RollingWindow.cs:line 143
+   at QuantConnect.Algorithm.CSharp.Pratham.AnchorChartIsTrendingUp()
+   at QuantConnect.Algorithm.CSharp.Pratham.OnData(Slice data)
+   at QuantConnect.Lean.Engine.AlgorithmManager.Run(AlgorithmNodePacket job, IAlgorithm algorithm, ISynchronizer synchronizer, ITransactionHandler transactions, IResultHandler results, IRealTimeHandler realtime, ILeanManager leanManager, IAlphaHandler alphas, CancellationToken token) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/AlgorithmManager.cs:line 117
+   --- End of inner exception stack trace ---
+2021-09-02T22:23:09.5343488Z TRACE:: Debug: Algorithm Id:(Pratham) completed in 25.45 seconds at 70k data points per second. Processing total of 1,776,978 data points.
+2021-09-02T22:23:09.5337323Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2021-09-02T22:23:09.5355944Z TRACE:: Debug: Algorithm finished warming up.
+OnData
+2021-09-02T22:23:09.5378303Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/Pratham-log.txt
+2021-09-02T22:23:09.5387708Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2021-09-02T22:23:09.6539280Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2021-09-02T22:23:09.6551152Z TRACE:: 
+STATISTICS:: Fitness Score 0
+STATISTICS:: Kelly Criterion Estimate 0
+STATISTICS:: Kelly Criterion Probability Value 0
+STATISTICS:: Sortino Ratio 0
+STATISTICS:: Return Over Maximum Drawdown 0
+STATISTICS:: Portfolio Turnover 0
+STATISTICS:: Total Insights Generated 0
+STATISTICS:: Total Insights Closed 0
+STATISTICS:: Total Insights Analysis Completed 0
+STATISTICS:: Long Insight Count 0
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $0
+STATISTICS:: Total Accumulated Estimated Alpha Value $0
+STATISTICS:: Mean Population Estimated Insight Value $0
+STATISTICS:: Mean Population Direction 0%
+STATISTICS:: Mean Population Magnitude 0%
+STATISTICS:: Rolling Averaged Population Direction 0%
+STATISTICS:: Rolling Averaged Population Magnitude 0%
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2021-09-02T22:23:09.6559432Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2021-09-02T22:23:09.6573729Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2021-09-02T22:23:09.6584869Z TRACE:: Engine.Run(): Disposing of setup handler...
+2021-09-02T22:23:09.6596651Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2021-09-02T22:23:09.6616904Z TRACE:: Engine.Main(): Packet removed from queue: Pratham
+2021-09-02T22:23:09.6630228Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2021-09-02T22:23:09.6641879Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2021-09-02T22:23:09.6651233Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2021-09-02T22:23:09.6691579Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

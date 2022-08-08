@@ -1,0 +1,101 @@
+2021-08-29T22:03:56.9497381Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2021-08-29T22:03:56.9534662Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2021-08-29T22:03:56.9544303Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Lean/Data
+2021-08-29T22:03:56.9553928Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: Parths-MacBook-Pro
+2021-08-29T22:03:56.9602680Z TRACE:: Engine.Main(): Started 10:03 PM
+2021-08-29T22:03:56.9640083Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2021-08-29T22:03:56.9823010Z TRACE:: JobQueue.NextJob(): Selected Pratham.dll
+2021-08-29T22:03:57.0658581Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2021-08-29T22:03:57.0668462Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2021-08-29T22:03:57.0678699Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2021-08-29T22:03:57.0687698Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: Pratham
+2021-08-29T22:03:57.0707554Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2021-08-29T22:03:57.0717466Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2021-08-29T22:03:57.0731990Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2021-08-29T22:03:57.0894932Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2021-08-29T22:03:57.0936658Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2021-08-29T22:03:57.1210550Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2021-08-29T22:03:57.4078450Z TRACE:: DebuggerHelper.Initialize(): waiting for debugger to attach...
+2021-08-29T22:04:25.9914688Z TRACE:: DebuggerHelper.Initialize(): debugger attached
+2021-08-29T22:04:25.9945288Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2021-08-29T22:04:25.9980272Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2021-08-29T22:04:26.0152481Z TRACE:: Config.GetValue(): api-data-update-period - Using default value: 1
+2021-08-29T22:04:26.0961477Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded Pratham
+2021-08-29T22:04:26.1373525Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage/Pratham. StorageFileCount 100. StorageLimitMB 5
+2021-08-29T22:04:26.1563619Z TRACE:: BacktestingSetupHandler.Setup(): Setting up job: Plan: Free, UID: 127638, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2021-08-29T22:04:26.1640821Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2021-08-29T22:05:57.7016801Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2021-08-29T22:05:57.7033912Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 6
+2021-08-29T22:06:02.4880729Z TRACE:: WeightedWorkScheduler(): will use 6 workers and MaxWorkWeight is 400
+2021-08-29T22:06:22.6035286Z TRACE:: Isolator.ExecuteWithTimeLimit(): Used: 0, Sample: 9, App: 261, CurrentTimeStepElapsed: 00:00.000
+2021-08-29T22:06:22.6323029Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2021-08-29T22:08:22.9717096Z TRACE:: Isolator.ExecuteWithTimeLimit(): Used: 0, Sample: 10, App: 269, CurrentTimeStepElapsed: 00:00.000
+2021-08-29T22:09:37.4270218Z TRACE:: Isolator.ExecuteWithTimeLimit(): Execution Security Error: Operation timed out - 5 minutes max. Check for recursive loops.
+2021-08-29T22:09:51.3167489Z ERROR:: Security.ExecuteWithTimeLimit(): Execution Security Error: Operation timed out - 5 minutes max. Check for recursive loops.
+2021-08-29T22:10:13.4740531Z ERROR:: Engine.Run():  System.TimeoutException: Execution Security Error: Operation timed out - 5 minutes max. Check for recursive loops.
+   at QuantConnect.Isolator.MonitorTask(Task task, TimeSpan timeSpan, Func`1 withinCustomLimits, Int64 memoryCap, Int32 sleepIntervalMillis) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 175
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Func`1 withinCustomLimits, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 86
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 192
+   at QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler.Setup(SetupHandlerParameters parameters) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Setup/BacktestingSetupHandler.cs:line 158
+   at QuantConnect.Lean.Engine.Engine.Run(AlgorithmNodePacket job, AlgorithmManager manager, String assemblyPath, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Engine.cs:line 227
+2021-08-29T22:10:13.4759801Z TRACE:: JOB HANDLERS: 
+2021-08-29T22:10:13.4771728Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2021-08-29T22:10:13.4784477Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2021-08-29T22:10:13.4797830Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2021-08-29T22:10:13.4816163Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2021-08-29T22:10:13.4827132Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2021-08-29T22:10:13.4838230Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2021-08-29T22:10:13.4850826Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2021-08-29T22:10:13.4861077Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2021-08-29T22:10:13.4881542Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2021-08-29T22:10:13.4931736Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2021-08-29T22:10:13.4948936Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2021-08-29T22:10:13.5017999Z ERROR:: Algorithm.Initialize() Error: Execution Security Error: Operation timed out - 5 minutes max. Check for recursive loops. Stack Trace: System.TimeoutException: Execution Security Error: Operation timed out - 5 minutes max. Check for recursive loops.
+   at QuantConnect.Isolator.MonitorTask(Task task, TimeSpan timeSpan, Func`1 withinCustomLimits, Int64 memoryCap, Int32 sleepIntervalMillis) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 175
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Func`1 withinCustomLimits, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 86
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 192
+   at QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler.Setup(SetupHandlerParameters parameters) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Setup/BacktestingSetupHandler.cs:line 158
+   at QuantConnect.Lean.Engine.Engine.Run(AlgorithmNodePacket job, AlgorithmManager manager, String assemblyPath, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Engine.cs:line 227
+ System.TimeoutException: Execution Security Error: Operation timed out - 5 minutes max. Check for recursive loops.
+   at QuantConnect.Isolator.MonitorTask(Task task, TimeSpan timeSpan, Func`1 withinCustomLimits, Int64 memoryCap, Int32 sleepIntervalMillis) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 175
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Func`1 withinCustomLimits, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 86
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Common/Isolator.cs:line 192
+   at QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler.Setup(SetupHandlerParameters parameters) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Setup/BacktestingSetupHandler.cs:line 158
+   at QuantConnect.Lean.Engine.Engine.Run(AlgorithmNodePacket job, AlgorithmManager manager, String assemblyPath, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Engine.cs:line 227
+2021-08-29T22:10:13.5142202Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2021-08-29T22:10:13.5175979Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2021-08-29T22:10:13.5227370Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2021-08-29T22:10:13.4996436Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/Pratham-log.txt
+2021-08-29T22:10:13.5009671Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2021-08-29T22:10:13.5013803Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2021-08-29T22:10:13.6117873Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2021-08-29T22:10:13.6128610Z TRACE:: 
+STATISTICS:: Fitness Score 0
+STATISTICS:: Kelly Criterion Estimate 0
+STATISTICS:: Kelly Criterion Probability Value 0
+STATISTICS:: Sortino Ratio 0
+STATISTICS:: Return Over Maximum Drawdown 0
+STATISTICS:: Portfolio Turnover 0
+STATISTICS:: Total Insights Generated 0
+STATISTICS:: Total Insights Closed 0
+STATISTICS:: Total Insights Analysis Completed 0
+STATISTICS:: Long Insight Count 0
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $0
+STATISTICS:: Total Accumulated Estimated Alpha Value $0
+STATISTICS:: Mean Population Estimated Insight Value $0
+STATISTICS:: Mean Population Direction 0%
+STATISTICS:: Mean Population Magnitude 0%
+STATISTICS:: Rolling Averaged Population Direction 0%
+STATISTICS:: Rolling Averaged Population Magnitude 0%
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2021-08-29T22:10:13.6137002Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2021-08-29T22:10:13.6147650Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2021-08-29T22:10:13.6156520Z TRACE:: Engine.Run(): Disposing of setup handler...
+2021-08-29T22:10:13.6164067Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2021-08-29T22:10:13.6178545Z TRACE:: Engine.Main(): Packet removed from queue: Pratham
+2021-08-29T22:10:13.6189017Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2021-08-29T22:10:13.6198450Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2021-08-29T22:10:13.6205694Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2021-08-29T22:10:13.6243577Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

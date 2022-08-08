@@ -1,0 +1,2 @@
+2014-05-02 00:00:00 Launching analysis for Tutorial4 with LEAN Engine v2.5.0.0
+2014-05-02 16:00:00 Algorithm Id:(Tutorial4) completed in 0.41 seconds at 0k data points per second. Processing total of 15 data points.
